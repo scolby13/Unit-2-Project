@@ -85,10 +85,14 @@ header {
     padding-bottom: 20px;
 }
 
+.intro p {
+    text-align: left;
+}
+
 .projects {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .portfolio li {
@@ -157,7 +161,7 @@ footer a {
     .intro p {
         float: left;
         width: 70%;
-        padding-left: 10px;
+        padding-left: 25px;
         padding-top: 20px;
         margin: 0 auto;
     }
@@ -166,6 +170,28 @@ footer a {
         display: inline-block;
         width: 40%;
         vertical-align: top;
-
     }
+  }
+
+  @media (min-width: 1024px) {
+    
+    body {
+        max-width: 1400px;
+    }
+
+    .main-heading {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .categories {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+
+    
   }
