@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
 }
@@ -19,6 +19,7 @@ body {
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 p {
@@ -46,13 +47,14 @@ header {
     margin: 6px;
     text-transform: uppercase;
     background: #fff;
+    border-radius: 5px;
 }
 
 
 
 /* Class Styles */
 
-.main-heading {
+.name {
     margin: 0;
     padding: 10px;
     background: rgb(202, 202, 202);
@@ -81,12 +83,15 @@ header {
 
 .intro img {
     width: 70%;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .intro p {
-    text-align: left;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .projects {
@@ -118,7 +123,7 @@ footer h2 {
 
 footer a {
     float: right;
-    margin: 20px;
+    margin: 7px;
     padding-right: 10px;
     padding-top: 10px;
     text-transform: uppercase;
@@ -148,31 +153,32 @@ footer a {
         max-width: 1024px;
     }
 
+    .main-nav {
+        display: inline-block;
+    }
     .main-nav li {
         display: inline-block;
         background: none;
+        float: left;
     }
 
     .intro img {
         float: right;
         width: 30%;
-        padding-right: 20px;
-        padding-left: 10px;
-        margin: 0 auto;
-        padding-top: 0;
+        margin-right: 20px;
+        margin-left: 10px;
     }
 
     .intro p {
         float: left;
-        width: 70%;
-        padding-left: 25px;
-        padding-top: 20px;
-        margin: 0 auto;
+        width: 60%;
+        padding-left: 40px;
+        padding-top: 40px;
     }
 
     .categories {
         display: inline-block;
-        width: 40%;
+        width: 45%;
         vertical-align: top;
     }
 
@@ -182,6 +188,16 @@ footer a {
 
     .footer-large {
         display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .footer-large .main-nav {
+        float: right;
+    }
+
+    .footer-large .main-nav li {
+        padding: 0;
+        margin: 0;
     }
   }
 
@@ -189,6 +205,11 @@ footer a {
     
     body {
         max-width: 1400px;
+        background: rgb(202, 202, 202)
+    }
+
+    .name {
+        float: left;
     }
 
     .main-heading {
@@ -199,10 +220,41 @@ footer a {
         float: right;
     }
 
+    .intro {
+        max-width: 900px;
+    }
+
+    .portfolio {
+        max-width: 1200px;;
+        width: 90%;
+        background: white;
+    }
+
+    .section-heading {
+        padding-bottom: 25px;
+    }
+
     .categories {
         display: inline-block;
         width: 30%;
         vertical-align: top;
+    }
+
+    .categories li {
+        padding-bottom: 10px;
+    }
+
+    .categories p {
+        padding: 8px;
+    }
+
+    .contact p {
+        text-align: center;
+        width: 40%;
+    }
+
+    .footer-large {
+        padding-top: 10px;
     }
 
     
