@@ -131,6 +131,10 @@ footer a {
     border-top: 1px solid #fff;
 }
 
+.footer-large {
+    display: none;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -170,6 +174,14 @@ footer a {
         display: inline-block;
         width: 40%;
         vertical-align: top;
+    }
+
+    .footer-small {
+        display: none;
+    }
+
+    .footer-large {
+        display: inline-block;
     }
   }
 
