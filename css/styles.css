@@ -116,7 +116,7 @@ header {
 footer {
     background: rgb(202, 202, 202);
 }
-footer h2 {
+footer h3 {
     float: left;
     margin: 20px;
 }
@@ -191,6 +191,9 @@ footer a {
         padding-bottom: 20px;
     }
 
+    .footer-large .name {
+        padding: 16px;
+    }
     .footer-large .main-nav {
         float: right;
     }
